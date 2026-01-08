@@ -4,15 +4,14 @@
     padding: 0;
     margin: 0;
     font-family: "Rubik", sans-serif;
-    background-color: grey;
 }
 
-/* ---------- Header Setup ---------- */
+/* ---------- Header/Navbar Setup ---------- */
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 100px;
+    padding: 20px 100px;
     background-color: white;
 }
 
@@ -46,4 +45,51 @@ header .navigation li a{
     font-weight: 400;
     font-size: 1.5em;
     background-color: inherit;
+}
+
+header .navigation li a:hover{
+    color: #ff0157;
+}
+
+/* ---------- Hero Setup ---------- */
+.banner{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://i.postimg.cc/s29LNR86/bg.jpg);
+    background-size: cover;
+}
+
+.content{
+    text-align: center;
+    max-width: 875px;
+}
+
+.content h2{
+    font-size: 5em;
+    color: white;
+}
+
+.content p{
+    margin: 15px;
+    font-size: 1.25em;
+    color: white;
+}
+
+.content .btn{
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 20px;
+    background-color: #ff0157;
+    margin-top: 25px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.content .btn:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
