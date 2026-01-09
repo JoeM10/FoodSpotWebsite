@@ -207,6 +207,7 @@ header .navigation li a:hover{
 .buttonContainer{
     display: flex;
     justify-content: center;
+    margin: 35px;
 }
 
 .buttonContainer .btn{
@@ -227,3 +228,50 @@ header .navigation li a:hover{
 }
 
 /* ---------- Experts Section Setup ---------- */
+.experts{
+    padding: 100px;
+}
+
+.expertsText{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.expertsTitle{
+    align-items: center;
+    font-size: 2.25em;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.expertsText p{
+    font-size: 1.35em;
+    font-weight: 400;
+}
+
+.expertCardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 65px;
+}
+
+.expertCard{
+    width: 300px;
+    border: 15px solid white;
+    box-shadow: 0 0 50px rgba(114, 114, 114, 0.4);
+}
+
+.expertCard h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.45em;
+    font-weight: 500;
+    padding: 15px;
+    padding-bottom: 10px;
+}
